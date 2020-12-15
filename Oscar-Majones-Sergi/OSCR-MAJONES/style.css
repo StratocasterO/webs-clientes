@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 1em;
+    justify-content: center;
+    background-color: rgb(101,129,166);
+    
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #262826;
+    color: white;
+}
+
+.header h3{
+    padding-top: 10px;
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    
+}
+
+ul.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 15px;   
+    padding: 10px;
+    background-color: rgba(10, 13, 55, 0.8);
+    margin:0;
+    
+   
+ 
+}
+
+
+
+ul.menu li:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+ul.menu a:hover{
+    color: red;
+}
+
+
+
+
+.cont{
+    padding: 3em 9em 3em 9em;
+    color: black;
+    text-align: justify;
+    background-color: rgb(101,129,166);
+    color: white;
+    justify-content: center;
+    
+}
+
+
+
+
+ul.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.bloc1{
+    justify-content: center;
+    margin:auto;
+    display: inline-block;
+}
+
+.bloc1 img{
+    margin: 2em;
+}
+
+.b2{
+    margin: 2em;
+}
+
+
+
+.bloc1 p{
+    margin: 2em 36px 0px 0px;
+    font-size: 14px;
+}
+
+
+.b1{
+    float: left;
+}
+
+.bimg{
+    float: right;
+}
+
+.b11{
+    float: left;
+}
+
+h3{
+    padding: 10px 0;
+}
+
+.carru{
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.carousel, .carousel img {
+    width: 500px;
+}
+.carousel img {
+    height: 400px!important;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #262826;
+    color: white;
+    font-size: 16px;
+}
+
+.footer img{
+    vertical-align: bottom;
+}
+
+.foot1{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+
+.foot2{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top:20px ;
+}
+
+.fab{
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    color: white;
+    
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav{
+        position: relative;
+    }
+    
+    ul.menu{
+        list-style: none;
+        display:block;
+       justify-content: space-around;
+        border: 1px solid white;
+        border-radius: 15px;   
+        padding: 10px;
+        margin: 5px;
+        background-color: rgba(10, 13, 55, 0.8);
+        text-align: center;
+        padding-bottom: 1em;}
+
+        nav li{
+            padding-bottom: 10px;
+        }
+
+        nav p{
+            margin-top: 7px;
+        }
+
+        nav li:not(:last-child){
+            border-bottom: 1px solid white;
+        }
+
+        .cont{
+            text-align: center;
+        
+        padding: 0;}
+
+
+      .bloc1{ width: 100%;} 
+     
+
+      .bloc1 img{
+            
+            width: 100%;
+            margin: 0 0 20px 0;
+            padding: 0;
+    
+
+        }
+
+        .bloc1 p{
+            margin: 0;
+        }
+
+        .b2 {
+            margin: 20px 0 0 0;}
+
+
+         .b11{
+             float: none;
+         }   
+
+        
+            .b11 img {
+                margin: 25px 0 0 0;
+            width: 100%;}
+
+       
+
+        .bimg{
+            float: none;
+        }
+
+        
+
+       .cont p{
+            padding: 1em;
+
+        }
+
+        .carru{
+            
+            margin-top:50px;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-around;
+            padding: 2em;
+            background-color: #262826;
+            color: white;}
+
+            .foot1{
+                width: 100%;
+                
+            }
+       
+        
+
+
+
+
+}
