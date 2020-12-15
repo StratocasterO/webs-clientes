@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 1em;
+    justify-content: center;
+    background-color: rgb(101,129,166);
+
+    
+}
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #262826;
+    color: white;
+}
+
+.header h3{
+    padding-top: 10px;
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    
+}
+
+ul.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 15px;   
+    padding: 10px;
+    background-color: rgba(10, 13, 55, 0.8);
+    margin:0;
+    
+   
+ 
+}
+
+
+
+ul.menu li:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+ul.menu a:hover{
+    color: red;
+}
+
+
+
+
+.cont{
+    padding: 3em 9em 3em 9em;
+    color: black;
+    text-align: justify;
+    background-color: rgb(101,129,166);
+    color: white;
+    justify-content: center;
+    
+}
+
+
+
+ul.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.casa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 7em;
+    font-size: 14px;
+   
+}
+
+.casa img{
+    padding: 10px;
+    
+}
+
+.casa iframe{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.txt{
+    width: 50%;
+    padding-left: 1em;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #262826;
+    color: white;
+    font-size: 16px;
+}
+
+.footer img{
+    vertical-align: bottom;
+}
+
+.foot1{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+
+.foot2{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top:20px ;
+}
+
+.fab{
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    color: white;
+    
+}
+
+ul.readmor{
+    list-style: none;
+    margin: 25px 0px 5px 0px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+ul.readmor a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(46, 197, 197);
+    border: 2px solid white;
+    padding: 1em;
+    font-size: 14px;
+    border-radius: 10px;
+  
+    
+}
+
+ul.readmor li:hover{
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 800px){
+   
+    body{
+        font-family: 'Heebo', sans-serif;
+        margin: 1em;
+        justify-content: center;
+        background-color: rgb(101,129,166);
+    
+        
+    }
+
+
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav{
+        position: relative;
+    }
+    
+    ul.menu{
+        list-style: none;
+        display:block;
+       justify-content: space-around;
+        border: 1px solid white;
+        border-radius: 15px;   
+        padding: 10px;
+        margin: 5px;
+        background-color: rgba(10, 13, 55, 0.8);
+        text-align: center;
+        padding-bottom: 1em;}
+
+        nav li{
+            padding-bottom: 10px;
+        }
+
+        nav p{
+            margin-top: 7px;
+        }
+
+        nav li:not(:last-child){
+            border-bottom: 1px solid white;
+        }
+
+        .cont{
+            text-align: center;
+        padding: 0;
+        background-color: rgb(101,129,166);
+    
+    }
+        
+
+        .casa{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+        }    
+
+        .casa img {
+         width: 100%;
+        }
+       
+        .txt{
+          width: 100%;
+          justify-content: center;
+        }
+     
+        ul.readmor{
+            padding-bottom: 1em;
+            padding-top: 10px;
+        }
+
+        .casa iframe {
+            margin: 29px 0px 0px -6px;}
+
+          .cont p{
+              padding: 1em;
+          }  
+
+          footer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-around;
+            padding: 2em;
+            background-color: #262826;
+            color: white;}
+
+            .foot1{
+                width: 100%;
+                
+            }
+
+
+       
+
+        }
+
+       
