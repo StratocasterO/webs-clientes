@@ -12,26 +12,46 @@
     <div class="tot">
         <header>
             <div><a class="brand" href="./Assigment-from-client_Home.html">
-                    <img class="logo" src="./img/favpng_extreme-sports-association-logo-brand.png" alt="logo extreme sports">
-                    <h1>EXTREME SPORTS</h1>
+                <img class="logo" src="./img/favpng_extreme-sports-association-logo-brand.png" alt="logo extreme sports">
+                <h1>EXTREME SPORTS</h1>
             </a></div>
             <nav>
                 <ul>
                     <li><a href="./Assigment-from-client_About-us.html">Conócenos</a></li>
-                    <li><a href="./Assigment-from-client_Gallery.html">Galeria</a></li>
-                    <li><a href="./Assigment-from-client_Contact-us.html">Contáctanos</a></li>
+                    <li><a href="./Assigment-from-client_Gallery.html">Galería</a></li>
+                    <li><a href="./Assigment-from-client_Contact-us.html" class="selected">Contáctanos</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="contact">
-                <h3>CONTÁCTANOS</h3>
-                <form>
-                    <h3>Nombre</h3>
-                    <h3>Edad</h3>
-                    <h3>Selecciona el deporte que te gustaría practicar</h3>
-                    <h3>Comentarios</h3>
-                </form>
+                <div class="formulari">
+                    <h3>CONTÁCTANOS</h3>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="" id="name" placeholder="Nombre y apellidos...">
+                        
+                        <label for="age">Edad</label>
+                        <input type="number" name="" id="age" placeholder="Edad...">
+                        
+                        <label for="sport">Selecciona el deporte que te gustaría practicar</label>
+                        <select name="" id="sport">
+                            <option value="0" selected>Paracaidismo</option>
+                            <option value="1">Puenting</option>
+                            <option value="2">Surf</option>
+                            <option value="3">Montañismo o alpinismo</option>
+                            <option value="4">Snowboard</option>
+                            <option value="5">Motocross</option>
+                            <option value="6">Buceo deportivo</option>
+                            <option value="7">Vuelo en traje de alas</option>
+                        </select>
+    
+                        <label for="comments">Comentarios</label>
+                        <textarea name="" id="comments" placeholder="Descripciones u otros comentarios..."></textarea>
+                        
+                        <button type="button">Envía</button>
+                    </form>
+                </div>
             </section>
         </main>
         <footer>

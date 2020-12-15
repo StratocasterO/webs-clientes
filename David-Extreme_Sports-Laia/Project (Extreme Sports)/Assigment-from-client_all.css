@@ -9,9 +9,11 @@
 h1, h3{
     font-family: Azonix;
 }
-h2, p, a{
+h2, a, label, button{
     font-family: BebasKai;
-    /* font-weight: 900; */
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 ul{
     list-style: none;
@@ -55,6 +57,7 @@ h1{
     font-weight: normal;
     padding: 20px;
 }
+/* NAV */
 nav{
     margin: 20px;
     background-color: rgb(214, 214, 216);
@@ -63,6 +66,9 @@ nav ul li a{
     color: white;
 }
 nav ul li a:hover{
+    color: rgb(42, 116, 161);
+}
+nav ul li a.selected{
     color: rgb(42, 116, 161);
 }
 /* MAIN */
