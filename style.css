@@ -1,0 +1,72 @@
+@font-face {
+    font-family:"Montserrat";
+    src: url(./Client_AlexFernandez/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(./Client_AlexFernandez/Roboto/Roboto-Medium.ttf);
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(14, 40, 94);
+}
+.cont{
+    margin:auto;
+    margin-top:5%;
+}
+h1.header{
+    font-family:"Montserrat";
+    font-size:3em;
+}
+h1.header a{
+    text-decoration: none;
+    color:white;
+}
+/* .carousel-caption{
+    margin:0;
+    color: white;
+    background-color: rgba(14, 39, 94, 0.475);
+    text-align: center;
+} */
+#serv{
+    vertical-align: bottom;
+    font-family:"Montserrat";
+}
+.container:hover{
+    background-color: rgba(14, 39, 94, 0.653);
+    font-size:2.3em;
+}
+#hi,#se{
+    margin:auto;
+    padding:auto;
+    width:400px;
+    align-content: center;
+}
+.carouselExampleSlidesOnly{
+    width:400px;
+    margin:auto;
+}
+.carousel-inner{
+    height:310px;
+    width:400px;
+    margin:auto
+    }
+.carousel-item{
+    height:310px;
+    width:400px;
+}
+.carousel-item img {
+    /* position: absolute; */
+    object-fit:fill;
+    /* top: 0;
+    left: 0; */
+    min-height: 200px;
+    /* //prevent it from stretch in screen size < than 768px */
+}
+.carousel-caption{
+    text-align: center;
+}
+
+
