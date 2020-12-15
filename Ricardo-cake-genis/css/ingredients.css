@@ -1,0 +1,49 @@
+
+.moving-info {
+    max-width: 350px;
+    overflow: scroll;
+    max-height: auto;
+    position: relative;
+    padding:10px;
+}
+#ingredientsList1, #ingredientsList2, #ingredientsList3, #ingredientsList4, #ingredientsList5, #ingredientsList6  {
+    font-size: small;
+    display: none;
+}
+.cake-header-container{
+    height: 120px;
+}
+.cake-image{
+    height: auto;
+    object-fit:cover;
+    margin:auto;
+}
+.ingredientsList{
+    width: 350px;
+    height: 350px;
+    display: inline;
+    font-size: smaller;
+    position: absolute;
+    top:0px;
+    left: 10px;
+    z-index: 5;
+    background: white;
+}
+/* .ingredientsList::before{
+    display: none;
+    position: absolute;
+    top:300px;
+
+}
+.ingredientsList::after{
+    display: inline;
+    top:0px;
+} */
+.ingredients-button:active .ingredientsList{
+    display: inline;
+    top: 0px;
+    z-index: 3;  
+}
+.ingredients-button:active .moving-info{
+    overflow: scroll;  
+}
