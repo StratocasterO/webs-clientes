@@ -1,0 +1,99 @@
+/*Originally created by  Mutiullah Samim */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Press+Start+2P&display=swap');
+
+html,body{
+background-image: url('../img/login_background_3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: rgb(199, 0, 57);
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h2{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(199, 0, 57);
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.button-style{
+    border-color: rgb(199, 0, 57);
+    color:rgb(199, 0, 57);
+    transition: background-color 0.8s ease-out;
+}
+
+.button-style:hover{
+    background-color: rgb(199, 0, 57);
+    color:white;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+@media (max-width: 768px) {
+    html,body{
+        background-position: bottom;
+    }
+}
