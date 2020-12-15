@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7039058a7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class=" bg-header navbar navbar-expand-lg navbar-light d-flex flex-column flex-lg-row">    
+        <div class="d-flex align-items-center">
+            <img width="75px" height="75px" src="./img/logo_bw.png" alt="">
+            <h1 class=" font-weight-bold">Rocodromo-BCN</h1>
+        </div>
+          
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="collapsibleNavbar" >
+          <ul class="navbar-nav w-100 "  >
+            <li class="nav-ite text-center ml-lg-auto ">
+              <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item text-center ml-lg-0">
+              <a class="nav-link" href="./horarios.html">Horarios y tarifas</a>
+            </li>
+            <li class="nav-item text-center ml-lg-0 ">
+              <a class="nav-link" href="./instalaciones.html">Instalaciones</a>
+            </li>
+            <li class="nav-item text-center ml-lg-0">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    <main class="container-fluid my-4 no-gutters">
+        <div class="row col-10 bg-gray mx-auto py-3">
+            <h3 class="mx-auto">Formulario de contacto</h3>
+            <form class="col-10 mx-auto">
+                <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Número de teléfono</label>
+                    <input type="phone" class="form-control" id="phone"  placeholder="Teléfono">
+                </div>
+                <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="name" class="form-control" id="name" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="text">Mensaje</label>
+                    <textarea class="form-control" id="text" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+
+
+    </main>
+    
+    <footer>
+        <div class="bg-header container-fluid d-flex flex-wrap align-items-center">
+            <div class=" col-12 col-lg-3  d-flex flex-column pt-1">
+                <img  class="align-self-center d-none d-lg-block" width="75px" height="75px" src="./img/logo_bw.png" alt="">
+                <h3 class="align-self-center">Dirección:</h3>
+                <p class="m-lg-0 align-self-center pb-2">Lorem ipsum dolor sit, amet consectetur.</p>
+            </div>
+            <div class=" col-12 col-lg-6  d-flex flex-column ">
+                <h3 class="align-self-center">Información adicional</h3>
+                <p class="m-lg-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet expedita quia quas temporibus tenetur facilis et doloremque. Fugit, maiores hic? ipsum dolor sit, amet consectetur adipisicing elit. Iste, asperiores.</p>
+            </div>
+            <div class=" col-12 col-lg-3 d-flex flex-column ">
+                <h3 class="align-self-center mb-3" >Redes sociales: </h3>           
+                <ul class="list-unstyled d-flex justify-content-center">
+                <li class="mx-3"><a href=""><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                <li class="mx-3"><a href=""><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li class="mx-3"><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="mx-3"><a href=""><i class="fab fa-youtube fa-2x"></i></a></li>
+                <li class="mx-3"><a href=""><i class="fab fa-linkedin-in fa-2x"></i></a></li>   
+                </ul> 
+            </div>
+
+        </div >
+        
+
+        <div class="bg-gray d-flex align-items-center justify-content-center no-gutters">
+            <p>&copy Rocodromo 2020 | Ricardo Churión </p>
+        </div>
+    </footer> 
+    
+    
+</body>
+</html>
