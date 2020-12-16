@@ -18,25 +18,15 @@ body{
 }
 h1.header{
     font-family:"Montserrat";
-    font-size:3em;
+    font-size:4em;
 }
 h1.header a{
     text-decoration: none;
     color:white;
 }
-/* .carousel-caption{
-    margin:0;
-    color: white;
-    background-color: rgba(14, 39, 94, 0.475);
-    text-align: center;
-} */
-#serv{
+#serv,#his{
     vertical-align: bottom;
     font-family:"Montserrat";
-}
-.container:hover{
-    background-color: rgba(14, 39, 94, 0.653);
-    font-size:2.3em;
 }
 #hi,#se{
     margin:auto;
@@ -67,6 +57,15 @@ h1.header a{
 }
 .carousel-caption{
     text-align: center;
+}
+#footer{
+    background-color: rgb(12, 36, 85);
+    color:white;
+    font-size:0.6em;
+    font-family:"Roboto";
+}
+#moreinf{
+    font-size:1.2em;
 }
 
 
