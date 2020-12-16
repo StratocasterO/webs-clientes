@@ -1,0 +1,31 @@
+.card_img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.title {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bordered {
+  width: 50%;
+  border-bottom: 1px solid grey;
+}
+
+.on_hover:hover {
+  background-color: #ccff90 !important;
+}
+
+.back_color {
+  background-color: #a4de02;
+}
+
+.menu_color {
+  background-color: #76ba1b;
+}
+
+.nav-link {
+  color: black !important;
+}

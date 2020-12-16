@@ -1,0 +1,20 @@
+Menú:
+Paraules separades a la versió desktop, hamburguesa pel mòbil (bootstrap)
+
+Versió mòbil:
+col·locar un element sota l'altre
+
+Tipografia:
+done
+
+Home img hover:
+cool
+
+
+
+
+ACABAR!
+
+- Menú: Paraules separades a la versió desktop, hamburguesa pel mòbil (bootstrap)
+- linkar apartats de l'About amb el lloc del text.
+- Versió mòbil: col·locar un element sota l'altre.

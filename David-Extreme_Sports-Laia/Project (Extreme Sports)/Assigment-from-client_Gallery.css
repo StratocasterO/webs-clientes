@@ -1,0 +1,54 @@
+.gallery{
+    width: 1200px;
+    height: 100%;
+    padding: 40px 0;
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "parac parac wings snowb"
+    "parac parac escal snowb"
+    "buceo motoc escal snowb"
+    "buceo bunge surfi surfi";
+}
+.gallery a{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#parac{
+    grid-area: parac;
+    background-image: url(./img/paracaidas.jpg);
+}
+#buceo{
+    grid-area: buceo;
+    background-image: url(./img/buceo.jpg);
+}
+#motoc{
+    grid-area: motoc;
+    background-image: url(./img/motocross-5064314_1920.jpg);
+}
+#bunge{
+    grid-area: bunge;
+    background-image: url(./img/bungee-jump-3.jpg);
+}
+#wings{
+    grid-area: wings;
+    background-image: url(./img/wingsuiting.jpg);
+}
+#escal{
+    grid-area: escal;
+    background-image: url(./img/escalada.jpg);
+    background-position: right;
+}
+#snowb{
+    grid-area: snowb;
+    background-image: url(./img/snowboarding-1081887_1920.jpg);
+}
+#surfi{
+    grid-area: surfi;
+    background-image: url(./img/surf.jpg);
+}

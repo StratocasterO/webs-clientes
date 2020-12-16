@@ -1,0 +1,132 @@
+@font-face{
+    font-family:"title";
+    src: url(/res/Cream\ Cake.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(227, 253, 253) !important;
+    color: #00362f;
+}
+.typo-regular{
+    font-family: 'Nunito', sans-serif  !important;
+    font-size: 400 !important;
+}
+.typo-bold{
+    font-family: 'Nunito', sans-serif  !important;
+    font-size: 800 !important;
+}
+.typo-extra-bold{
+    font-family: 'Nunito', sans-serif  !important;
+    font-size: 900 !important;
+}
+.typo-light{
+    font-family: 'Nunito', sans-serif  !important;
+    font-size: 300 !important;
+}
+.typo-thin{
+    font-family: 'Nunito', sans-serif  !important;
+    font-size: 200 !important;
+}
+.italic{
+    font-style: italic !important;
+}
+.big{
+    font-size: 1.2em;
+}
+
+.fosc{
+    color: rgb(87, 134, 134)  !important;
+}
+.clar{
+    color: rgb(129,236,236) !important;
+}
+.bg-fosc{
+    background-color: rgb(0, 194, 191) !important;
+}
+.bg-clar{
+    background-color: rgb(86, 167, 170) !important;
+}
+.extra-fosc{
+    color: rgb(2, 122, 120) !important;
+}
+.extra-clar{
+    color: rgb(201, 236, 236) !important;
+}
+.bg-extra-fosc{
+    background-color: rgb(2, 122, 120) !important;
+}
+.bg-extra-clar{
+    background-color: rgb(201, 236, 236) !important;
+}
+
+h1{ 
+    font-family: title;
+}
+sub{
+    font-family: subtitle;
+}
+
+.custom-button {
+    width: 100px;
+}
+.image-container{
+    max-width: 400px;
+    height:auto;
+}
+.logo-container{
+    width: 60px;
+}
+.moving-info {
+    max-width: 350px;
+    overflow: hidden;
+    max-height: auto;
+    position: relative;
+    padding:10px;
+}
+#ingredientsList1, #ingredientsList2, #ingredientsList3, #ingredientsList4, #ingredientsList5, #ingredientsList6  {
+    top: 240px;
+    transition: 1s;
+    left: -1px;
+    opacity: 0;
+} 
+.cake-header-container{
+    height: 80px;
+}
+.cake-image{
+    height: auto;
+    object-fit:cover;
+    margin:auto;
+}
+.info-box{
+    width: 80px;
+}
+
+.merch-image{
+    max-height: 300px;
+    object-fit:cover;
+    padding: 10px 0;
+    margin:auto;
+}
+.btn-xlarge {
+    font-size: 22px;
+    line-height: normal;
+    margin: auto;
+}
+.aside-left {
+    margin-top:10px;
+    padding: 20px;
+    max-height: 320px;
+    border-radius: 10px;
+}
+.amplada{
+    width: 100%;
+}
+.altura-total{
+    min-height: 75vh;
+}
+
+@media (max-width: 768px){
+    .cake-header-container{height: auto;}
+}
+

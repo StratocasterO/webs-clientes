@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/icons.css">
+
+    <title>Cake Instanity</title>
+</head>
+<body>
+
+<!-- header -->
+    <header class="container-fluid bg-primary px-0">
+
+    <!-- row with name and logo -->
+        <div class="d-flex justify-content-center">
+
+            <div class="logo-container my-2">
+                <img src="./img/LogoSvg.svg" alt="logo left" class="img-fluid">
+            </div>
+            <h1 class="display-4 mx-3 text-center my-2 text-white">Cake insanity</h1>
+
+            <div class="logo-container my-2">
+                <img src="./img/LogoSvg.svg" alt="logo right" class="img-fluid">
+            </div>
+        </div>
+
+    <!-- navigation non-fixed with links -->
+        <nav class="navbar navbar-expand-md navbar-light bg-fosc p-1">
+
+            <ul class=" container navbar-nav mr-auto ">
+
+                <li class="nav-item px-5 typo-regular">
+                    <a class="nav-link clar" href="./contact.html">Contact me</a>
+                </li>
+
+                <li class="nav-item px-5">
+                    <a class="nav-link extra-clar typo-extra-bold big" href="./index.html">Home</a>
+                </li>
+
+                <li class="nav-item px-5">
+                    <a class="nav-link clar typo-regular" href="./merch.html">Merch</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+
+        <!-- Left bar Large display: Form -->
+            <aside class="col-lg-2 col-12 px-3 py-2 my-2 d-lg-flex d-none">
+                <div class="sticky-top extra-fosc">
+                    <h5 class="text-center extra-fosc mt-5">Newsletter</h5>
+                    <div class="form-group py-2  bg-extra-clar aside-left typo-regular">
+                        <label for="exampleInputName1 ">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                    
+                        <label class="pt-3" for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text fosc typo-thin">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn bg-primary text-white py-2">Submit</button>
+                    </div>
+                    
+                </div>
+
+            </aside>
+
+        <!-- Center -->
+            
+            <article class="col-lg-8 col-12">
+
+            <!-- About me -->
+
+                <div>
+                    <h2 class="display-5 px-2 py-2 extra-fosc typo-bold">Claire Saffitz </h2>
+                    <div class="d-inline-block">
+                        <div class="image-container float-right   px-2 py-2">
+                            <img src="./img/Chef.jpg" alt="chef image" class="rounded img-fluid" >
+                        </div>
+                        <p class="px-2 py-2">Claire Saffitz (born 1986) is an American pastry chef, food writer, and YouTube personality. Before leaving in mid-2020, she was a contributing editor at Bon Appétit magazine and starred in several series on the Bon Appétit YouTube channel, most notably Gourmet Makes, in which she created gourmet versions of popular snack foods by reverse engineering them. She has since published a cookbook titled Dessert Person, which became a New York Times Best Seller, and continues work as a video host on her own YouTube channel and as a freelance recipe developer.</p>
+                        <p class="px-2 py-2">Saffitz was born in 1986 in St. Louis, Missouri, to an Ashkenazi Jewish family. She attended Clayton High School, graduating in 2005. She then graduated from Harvard University in 2009 with a BA in U.S. history and literature, after which she studied French cuisine and pastry at École Grégoire-Ferrandi in Paris, France. After working at Spring Restaurant for a four-month externship, Saffitz moved to Montreal, Québec, where she received a master's degree in History at McGill University in 2013, with a focus on French culinary history in the early modern era.</p>
+                    </div>
+                </div>
+
+            <!-- Cake Shop -->        
+                <div class="row justify-content-center">
+
+                    <!-- CAKE 1 - BLUEBERRY -->
+
+                    <div class="col-lg-4 col-12">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column rounded m-2">
+                            <div class="cake-header-container p-2"><h5 class="text-center extra-fosc">Blueberry soured cream cake with cheesecake frosting</h5></div>
+                            <picture id="overflow1" class="moving-info">
+                                <img src="./img/blueberry.PNG" id="image1" class="img-fluid rounded cake-image" alt="blueberry cake">
+                                <div id="ingredientsList1" class="position-absolute px-2 bg-extra-clar py-2 mx-1"> 
+                                    <p class="m-0 font-weight-bold">INGREDIENTS</p>
+                                    <ul>
+                                        <li>175g soft butter</li>
+                                        <li>175g golden caster sugar</li>
+                                        <li>3 large eggs</li>
+                                        <li>225g self-raising flour</li>
+                                        <li>1 tsp baking powder</li>
+                                        <li>2 tsp vanilla extract</li>
+                                        <li>142ml carton soured cream</li>
+                                        <li>3 x punnets blueberry</li>
+                                    </ul>
+                                    <p class="strong font-weight-bold">Cheesecake frosting</p>
+                                    <ul>
+                                        <li>200g tub Philadelphia cheese</li>
+                                        <li>100g icing sugar</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction()" id="ingredients1" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>
+
+                    <!-- CAKE 2 - GINGER -->
+                    <div class="col-lg-4 col-12">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column rounded m-2">
+                            <div class="cake-header-container p-2"><h5 class="text-center extra-fosc">Ginger & white chocolate cake</h5></div>
+                            <picture id="overflow2" class="moving-info">
+                                <img src="./img/cake2.PNG" id="image2" class="img-fluid rounded cake-image " alt="blueberry cake">
+                                <div id="ingredientsList2" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
+                                    <p class="m-0 font-weight-bold">INGREDIENTS</p>
+                                    <ul>
+                                        <li>220g unsalted butter , softened</li>
+                                        <li>365g self-raising flour</li>
+                                        <li>200g muscovado sugar</li>
+                                        <li>50g black treacle</li>
+                                        <li>150g golden syrup</li>
+                                        <li>2 large eggs , lightly beaten</li>
+                                        <li>300ml milk</li>
+                                        <li>2 balls stem ginger in syrup, finely chopped, plus 50ml of the syrup</li>
+                                        <li>1 tsp fine sea salt</li>
+                                        <li>3 tsp ground ginger</li>
+                                        <li>½ tsp cinnamon</li>
+                                        <li>½ tsp bicarbonate of soda</li>
+                                        <li>small handful of crystallised ginger pieces, chopped, to decorate</li>
+                                    </ul>
+                                    <p class="strong font-weight-bold">For the white chocolate icing</p>
+                                    <ul>
+                                        <li>30ml milk</li>
+                                        <li>160g icing sugar , sieved</li>
+                                        <li>150g white chocolate , chopped</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction2()" id="ingredients2" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>
+
+                    <!-- CAKE 3 - LEMON -->
+                    <div class="col-lg-4 col-12"">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Lemon & buttermilk pound cake</h5>
+                            </div>
+                                <picture id="overflow3" class="moving-info">
+                                <img src="./img/lemon.PNG" id="image3" class="img-fluid rounded cake-image " alt="blueberry cake">
+                                <div id="ingredientsList3" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
+                                    <p class="m-0">INGREDIENTS</p>
+                                    <ul>
+                                        <li>125g butter, plus extra for the tin</li>
+                                        <li>200g plain flour, plus extra for dusting</li>
+                                        <li>¼ tsp bicarbonate of soda</li>
+                                        <li>¼ tsp baking powder</li>
+                                        <li>200g golden caster sugar</li>
+                                        <li>4 lemons, finely zested (save a little for the top if you like)</li>
+                                        <li>2 large eggs, at room temperature, lightly beaten</li>
+                                        <li>100ml buttermilk, at room temperature</li>
+                                        <li>½ lemon, juiced</li>
+                                    </ul>
+                                    <p class="strong font-weight-bold">For the syrup</p>
+                                    <ul>
+                                        <li>50g granulated sugar</li>
+                                        <li>2 large lemons, juiced (use the lemons you’ve zested)</li>
+                                    </ul>
+                                    <p class="strong font-weight-bold">For the icing</p>
+                                    <ul>
+                                        <li>150g icing sugar, sifted</li>
+                                        <li>2-3 tbsp lemon juice</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction3()" id="ingredients3" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- 2nd row -->
+                <div class="row justify-content-center">
+
+                    <!-- CAKE 4 - sangria -->
+                    <div class="col-lg-4 col-12"">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Sangria cake</h5>
+                            </div>      
+                            <picture id="overflow4" class="moving-info">
+                                <img src="./img/sangria.PNG" id="image4" class="img-fluid rounded cake-image" alt="blueberry cake">
+                                <div id="ingredientsList4" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
+                                    <p class="m-0">INGREDIENTS</p>
+                                    <ul>
+                                        <li>100g pears, peeled and chopped</li>
+                                        <li>100g peaches or nectarines, stoned and chopped</li>
+                                        <li>100g strawberries, hulled and chopped</li>
+                                        <li>100g cherries, stoned and chopped</li>
+                                        <li>280g golden caster sugar</li>
+                                        <li>225g butter, softened</li>
+                                        <li>1 orange, zest only</li>
+                                        <li>150ml red wine</li>
+                                        <li>225g self-raising flour</li>
+                                        <li>100g pack ground almonds</li>
+                                        <li>1 tsp baking powder</li>
+                                        <li>3 medium eggs</li>
+                                        <li>50ml orange liqueur (we used Cointreau)</li>
+                                        <li>1 tbsp granulated sugar</li>
+                                    </ul>    
+                                    <p class="strong font-weight-bold">To decorate</p>
+                                    <ul>
+                                        <li>1 small orange, cut into wedges</li>
+                                        <li>1 lemon, cut into wedges</li>
+                                        <li>a handful of strawberries (optional)</li>
+                                        <li>a handful of cherries (optional)</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction4()" id="ingredients4" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>
+
+                    <!-- CAKE 5 - Spiced -->
+                    <div class="col-lg-4 col-12">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Spiced hummingbird cake</h5>
+                            </div>   
+                            <picture id="overflow5" class="moving-info">
+                                <img src="./img/spiced.PNG" id="image5" class="img-fluid rounded cake-image" alt="blueberry cake">
+                                <div id="ingredientsList5" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
+                                    <p class="m-0">INGREDIENTS</p>
+                                    <ul>
+                                        <li>225ml vegetable oil , plus extra for the tins</li>
+                                        <li>300g self-raising flour</li>
+                                        <li>½ tsp baking powder</li>
+                                        <li>300g golden caster sugar</li>
+                                        <li>1 tsp ground cinnamon</li>
+                                        <li>2 cardamom pods , cracked open and seeds finely crushed</li>
+                                        <li>whole nutmeg , for grating</li>
+                                        <li>2 very ripe bananas , mashed</li>
+                                        <li>3 medium eggs , beaten</li>
+                                        <li>150g pineapple chunks , from a can, drained and chopped</li>
+                                        <li>80g pecans , finely chopped</li>
+                                    </ul>    
+                                    <p class="strong font-weight-bold">For the icing</p>
+                                    <ul>
+                                        <li>200g full-fat soft cheese</li>
+                                        <li>150g softened, unsalted butter</li>
+                                        <li>80g runny honey</li>
+                                        <li>80g icing sugar</li>
+                                        <li>1 large orange , zested</li>
+                                        <li>edible flowers and dried pineapple rings, to decorate (optional)</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction5()" id="ingredients5" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>                        
+
+                    <!-- CAKE 6 - strawberry -->
+                    <div class="col-lg-4 col-12">
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Strawberry cake</h5>
+                            </div> 
+                            <picture id="overflow6" class="moving-info">
+                                <img src="./img/strawberry.PNG" id="image6" class="img-fluid rounded cake-image" alt="blueberry cake">
+                                <div id="ingredientsList6" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
+                                    <p class="m-0">INGREDIENTS</p>
+                                    <ul>
+                                        <li>400g softened butter , plus more for the tin</li>
+                                        <li>400g caster sugar</li>
+                                        <li>5 large eggs</li>
+                                        <li>400g self-raising flour</li>
+                                        <li>100ml natural yogurt</li>
+                                        <li>300g strawberries , hulled and halved</li>
+                                        <li>2 tsp vanilla extract</li>
+                                    </ul>
+                                    <p class="strong font-weight-bold">For the icing</p>
+                                    <ul>
+                                        <li>100g butter , softened</li>
+                                        <li>250g soft cheese</li>
+                                        <li>600g icing sugar</li>
+                                        <li>400g strawberry jam</li>
+                                    </ul>
+                                </div>
+                            </picture>
+                            <p class="typo-extra-bold extra-fosc italic">50 €</p>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" onclick="myFunction6()" id="ingredients6" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
+                                
+                            </div>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
+                        </div>
+                    </div>
+                </div>  
+                
+                <!-- NEXT bar -->
+                <div class="row mb-2">
+                    <button type="button" class="btn btn-primary btn-xlarge my-4 mx-2 ">NEXT</button>
+                </div>
+            </article>
+
+
+        <!-- Rigth bar-->
+            <aside class="col-lg-2 col-12 sticky-top px-3 py-2">
+                <div class="my-2">
+                    <h5 class="lead typo-bold text-center bg-extra-clar rounded p-2 mb-0">VIDEO OF THE DAY</h5>
+                    <div>
+                        <iframe class="rounded mt-0" width="100%" height="auto" src="https://www.youtube.com/embed/8-5yLt1gqIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="my-4 p-2 rounded">
+                    <h5 class="lead typo-bold  text-center">RECIPE OF THE DAY</h5>
+                    <div class="d-flex flex-column align-items-center bg-extra-clar rounded py-4 px-2">
+                        <p class="text-center extra-fosc typo-bold">Easiest Chocolate Birthday Cake</p>
+                        <p class="italic"><a href="https://www.bonappetit.com/recipe/easiest-chocolate-birthday-cake">Link a la receta</a></p>               
+                    </div>
+                </div>
+
+                <div class="my-4 p-2 social-media rounded">
+                    <h5 class="lead typo-bold text-center">FOLLOW US</h5>
+                    <div class="container">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus " aria-hidden="true"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-linkedin fa-xs" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram fa-xs" aria-hidden="true"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                
+            </aside>
+        </div>
+    </div>
+
+    <!-- Left bar small display: Form -->
+    <div class="container">
+        <aside class="col-12 px-3 py-2 d-lg-none d-flex">
+            <div class="extra-fosc amplada">
+                <h5 class="text-center extra-fosc display-5">Newsletter</h5>
+                <div class="form-group py-2  bg-extra-clar aside-left typo-regular">
+                    <label for="exampleInputName1 ">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                
+                    <label class="pt-3" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text fosc typo-thin">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn bg-primary text-white py-2">Submit</button>
+                </div>
+                
+            </div>
+        </aside>
+    </div>
+        
+    <footer id="footer" class="bg-primary p-4  typo-thin italic">
+        <p class="text-center text-white m-0">©Copyright Cake Insanity</p>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>

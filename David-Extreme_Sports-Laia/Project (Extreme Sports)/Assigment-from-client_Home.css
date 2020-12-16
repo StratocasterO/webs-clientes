@@ -1,0 +1,53 @@
+.sections{
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sections a{
+    text-decoration: none;
+    width: 800px;
+    height: 150px;
+    background-color: rgb(180,206,223);
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(10, 36, 73);
+}
+#about{
+    background-image: linear-gradient(to bottom, rgba(180,206,223,0.6) 0%,rgba(180,206,223,0.6) 100%), url(./img/motocross-5064314_1920.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+}
+#about:hover{
+    background-image: url(./img/motocross-5064314_1920.jpg);
+}
+#gallery{
+    background-image: linear-gradient(to bottom, rgba(180,206,223,0.6) 0%,rgba(180,206,223,0.6) 100%), url(./img/surf.jpg);
+    background-size: cover;
+    background-position-y: -220px;
+}
+#gallery:hover{
+    background-image: url(./img/surf.jpg);
+}
+#contact{
+    background-image: linear-gradient(to bottom, rgba(180,206,223,0.6) 0%,rgba(180,206,223,0.6) 100%), url(./img/paracaidas.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+}
+#contact:hover{
+    background-image: url(./img/paracaidas.jpg);
+}
+.sections a h2{
+    /* color: rgb(10, 36, 73); */
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.sections a p{
+    /* color: rgb(10, 36, 73); */
+    font-size: 1.2em;
+}
