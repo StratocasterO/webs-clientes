@@ -1,184 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vida Sana</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-    <style>
-        .card_img {
-            object-fit: cover;
-            width: 100%;
-            height: 250px;
-        }
-        
-        .title {
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .bordered {
-            width: 50%;
-            border-bottom: 1px solid grey;
-        }
 
-        .on_hover:hover {
-            background-color: blueviolet !important;
-            color: white;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vida Sana</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-        .back_color {
-            background-color: #a4de02;
-        }
+    <body>
 
-        .menu_color {
-            background-color: #76ba1b;
-        }
-    </style>
-    
-</head>
-<body>
-    
-    
-    <!-- HEADER -->
-    <div class="container-fluid menu_color p-3"> 
-        <div class="container">
-            <div class="row title justify-content-center justify-content-lg-between">
-                <div>
-                    <a href="./index.html"><img src="./img/logo.png" class="rounded img-fluid" alt=""></a>
+
+        <!-- HEADER -->
+        <div class="container-fluid menu_color p-3">
+            <div class="container">
+                <div
+                    class="row title justify-content-center justify-content-lg-between">
+                    <div>
+                        <a href="./index.html"><img src="./img/logo.png"
+                                class="rounded img-fluid" alt=""></a>
+                    </div>
+
+                    <div class="h-100 align-middle mt-4 mt-md-0">
+                        <a class="d-inline-block "
+                            href="mailto:kbaezortiz@gmail.com"
+                            target="_blank"><img src="./img/mail.png"
+                                width="50px" alt=""></a>
+                        <a class="d-inline-block "
+                            href="https://es-es.facebook.com/"
+                            target="_blank"><img width="50px"
+                                src="./img/facebook.png" alt=""></a>
+                        <a class="d-inline-block "
+                            href="https://twitter.com/home" target="_blank"><img
+                                width="50px" src="./img/twitter.png" alt=""></a>
+                    </div>
                 </div>
-                
-                <div class="h-100 align-middle mt-4 mt-md-0">
-                    <a class="d-inline-block " href="mailto:kbaezortiz@gmail.com" target="_blank"><img src="./img/mail.png" width="50px" alt=""></a> 
-                    <a class="d-inline-block " href="https://es-es.facebook.com/" target="_blank"><img width="50px" src="./img/facebook.png" alt=""></a>
-                    <a class="d-inline-block " href="https://twitter.com/home" target="_blank"><img width="50px" src="./img/twitter.png" alt=""></a>
-                </div>
-            </div>      
+            </div>
         </div>
-    </div>
-    
-    
-    <!-- MENU -->
-    <div class="container-fluid back_color"> 
-        <div class="container">
-            <ul class="nav w-50 m-auto row">
-                <li class="col-12 col-md nav-item border border-dark m-1 p-0 ">
-                    <a class="text-center nav-link on_hover" href="./index.html">Home</a>
-                </li>
-                <li class="col-12 col-md nav-item border border-dark m-1 p-0">
-                    <a class="text-center nav-link on_hover" href="./servicios.html">Servicios</a>
-                </li>
-                <li class="col-12 col-md nav-item border border-dark m-1 p-0">
-                    <a class="text-center nav-link on_hover" href="./blog.html">Blog</a>
-                </li>
-            </ul>
+
+
+        <!-- MENU -->
+        <div class="container-fluid back_color">
+            <div class="container">
+                <ul class="nav w-50 m-auto row">
+                    <li
+                        class="col-12 col-md nav-item border border-dark m-1 p-0 ">
+                        <a class="text-center nav-link on_hover"
+                            href="./index.html">Home</a>
+                    </li>
+                    <li
+                        class="col-12 col-md nav-item border border-dark m-1 p-0">
+                        <a class="text-center nav-link on_hover"
+                            href="./servicios.html">Servicios</a>
+                    </li>
+                    <li
+                        class="col-12 col-md nav-item border border-dark m-1 p-0">
+                        <a class="text-center nav-link on_hover"
+                            href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    
-    
-    <!-- IMAGE -->
-    <div class="container position-relative"> 
-        <div id="fade" class="position-absolute w-100 h-100" style="height: 100px; z-index: 2; background: rgb(2,0,36);
+
+
+        <!-- IMAGE -->
+        <div class="container position-relative">
+            <div id="fade" class="position-absolute w-100 h-100"
+                style="height: 100px; z-index: 2; background: rgb(2,0,36);
         background: linear-gradient(180deg, rgba(2,0,36,0) 78%, rgba(255,255,255,1) 100%);"></div>
-        <div class="container p-0 d-block position-relative w-100" style="z-index: 1;">
-            <img class="w-100" src="./img/img (1).jpg" alt="">
-        </div>
-    </div>
-    
-    
-    <!-- CARDS TITLE -->
-    <div class="container-fluid p-3">
-        <div class="container text-center">
-            <h2>Card Deck below</h2>
-        </div>
-    </div>
-    
-    
-    <!-- CENTER CARDS -->
-    <div class="container p-4"> 
-        <div class="card-deck">
-            <div class="card m-0 text-center">
-                <img class="card-img-top" src="./img/img (5).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            <div class="card m-0 text-center">
-                <img class="card-img-top" src="./img/img (3).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card m-0 text-center">
-                <img class="card-img-top" src="./img/img (4).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
+            <div class="container p-0 d-block position-relative w-100"
+                style="z-index: 1;">
+                <img class="w-100" src="./img/img (1).jpg" alt="">
             </div>
         </div>
-    </div>
-    
-    
-    <!-- BLOG TITLE -->
-    <div class="container-fluid pt-5">
-        <div class="container text-center bordered">
-            <h2>Blog</h2>
+
+
+        <!-- CARDS TITLE -->
+        <div class="container-fluid p-3">
+            <div class="container text-center">
+                <h2>Card Deck below</h2>
+            </div>
         </div>
-    </div>
-    
-    
-    <!-- BLOG CARDS -->
-    <div class="container p-4"> 
-        <div class="card-deck">
-            <div class="card m-0 text-center">
-                <img class="card-img-top card_img" src="./img/img (8).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Entrada 1</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+
+        <!-- CENTER CARDS -->
+        <div class="container p-4">
+            <div class="card-deck">
+                <div class="card m-0 text-center">
+                    <img class="card-img-top" src="./img/img (5).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with
+                            supporting text below as a natural lead-in to
+                            additional content. This content is a little bit
+                            longer.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card m-0 text-center">
-                <img class="card-img-top card_img" src="./img/img (6).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Entrada 2</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <div class="card m-0 text-center">
+                    <img class="card-img-top" src="./img/img (3).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below
+                            as a natural lead-in to additional content.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card m-0 text-center">
-                <img class="card-img-top card_img" src="./img/img (7).jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Entrada 3</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <div class="card m-0 text-center">
+                    <img class="card-img-top" src="./img/img (4).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with
+                            supporting text below as a natural lead-in to
+                            additional content. This card has even longer
+                            content than the first to show that equal height
+                            action.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    
-    <!-- BUTTON -->
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <button type="button" class="btn btn-info center mb -4" data-toggle="button" aria-pressed="false" autocomplete="off">Saber más !</button>
+
+
+        <!-- BLOG TITLE -->
+        <div class="container-fluid pt-5">
+            <div class="container text-center bordered">
+                <h2>Blog</h2>
             </div>
         </div>
-    </div>
-    
-    
-    <!-- FOOTER -->
-    <div class="container-fluid menu_color p-3 mt-5"> 
-        <div class="container text-center">
-            <a href="./index.html" target="_blank"><img src="./img/logo.png" alt=""></a>
+
+
+        <!-- BLOG CARDS -->
+        <div class="container p-4">
+            <div class="card-deck">
+                <div class="card m-0 text-center">
+                    <img class="card-img-top card_img" src="./img/img (8).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrada 1</h5>
+                        <p class="card-text">This is a wider card with
+                            supporting text below as a natural lead-in to
+                            additional content. This content is a little bit
+                            longer.</p>
+                    </div>
+                </div>
+                <div class="card m-0 text-center">
+                    <img class="card-img-top card_img" src="./img/img (6).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrada 2</h5>
+                        <p class="card-text">This card has supporting text below
+                            as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card m-0 text-center">
+                    <img class="card-img-top card_img" src="./img/img (7).jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrada 3</h5>
+                        <p class="card-text">This is a wider card with
+                            supporting text below as a natural lead-in to
+                            additional content. This card has even longer
+                            content than the first to show that equal height
+                            action.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
-</body>
+
+
+        <!-- BUTTON -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="./servicios.html" class="btn btn-info center mb-4"
+                        autocomplete="off">Saber más !</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="container-fluid menu_color p-3 mt-5">
+            <div class="container text-center">
+                <a href="./index.html" target="_blank"><img src="./img/logo.png"
+                        alt=""></a>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    </body>
+
 </html>
