@@ -29,7 +29,6 @@ img:hover{
 
 }
 #serv,#hist{
-    vertical-align: bottom;
     font-family:"Montserrat";
 }
 #hi,#se{
@@ -67,6 +66,10 @@ img:hover{
 }
 #moreinf{
     font-size:1.2em;
+}
+.fab{
+    width:25px;
+    font-size:2em;
 }
 
 
