@@ -1,0 +1,96 @@
+@font-face {
+    font-family:"Montserrat";
+    src: url(./Client_AlexFernandez/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(./Client_AlexFernandez/Roboto/Roboto-Medium.ttf);
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(14, 40, 94);
+}
+.cont{
+    margin:auto;
+    margin-top:5%;
+}
+.animate__fadeInUp{
+    position:relative;
+    top:60px;
+    color:#0056B3;
+    font-family:"Montserrat";
+}
+h1.header{
+    font-family:"Montserrat";
+    font-size:4em;
+}
+h1.header a{
+    text-decoration: none;
+    color:white;
+}
+img:hover{
+    border:5px solid #0056B3;
+    /* transform: scale(1.2); */
+}
+#serv,#hist{
+    font-family:"Montserrat";
+}
+#hi,#se{
+    margin:auto;
+    padding:auto;
+    width:400px;
+    align-content: center;
+}
+.carouselExampleSlidesOnly{
+    width:400px;
+    margin:auto;
+}
+.carousel-inner{
+    height:310px;
+    width:400px;
+    margin:auto
+    }
+.carousel-item{
+    height:310px;
+    width:400px;
+}
+.carousel-item img {
+    /* position: absolute; */
+    object-fit:fill;
+    /* top: 0;
+    left: 0; */
+    min-height: 200px;
+    /* //prevent it from stretch in screen size < than 768px */
+}
+footer{
+    background-color: rgb(11, 34, 82);
+    color:rgba(255, 255, 255, 0.845);
+    font-size:0.6em;
+    font-family:"Roboto";
+}
+h6{
+    font-family:"Montserrat";
+}
+#moreinf{
+    font-size:1.3em;
+}
+.fab{
+    width:70px;
+    font-size:3em;
+    color:rgba(255, 255, 255, 0.845);
+}
+.fab:hover{
+    color:#0056B3;
+}
+.lis{
+    color:rgba(255, 255, 255, 0.845);
+    font-size:1.3em;
+    font-family: "Roboto";
+}
+li{
+    padding:2px;
+}
+
+
