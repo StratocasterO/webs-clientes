@@ -1,0 +1,30 @@
+Web del Port de Premià
+
+- Títols en font "Montserrat", text en font "Roboto"
+
+- Header a totes les pàgines amb un text que digui "Port de Premià" que contingui un link a pàgina principal
+
+- Pàgina principal: dos links amb imatges de fons cambiants, una que et porti a la pàgina "Història" i l'altre a la pàgina "Serveis" 
+
+- Pàgina "Història": Dos seccions de text amb dues imatges al mig.
+
+- Pàgina "Serveis": Una secció de text seguida de dos seccions que estiguin en dues columnes una al costat de l'altra. Cada una d'aquestes tindrà una imatge seguida de text. Un formulari de contacte al final.
+
+Imatges: 
+
+- "imatgeport-1" de fons al link a "Història" 
+
+- "imatgeport-2" de fons al link a "Serveis" 
+
+- "imatgehistoria-1" i "imatgehistoria-2" ficades en mig del text a la pàgina "Història" 
+
+- "imatgeport-3" d'imatge en la secció "Embracació i Reparació" en la pàgina "Serveis" 
+
+- "imatgeport-4" d'imatge en la secció "Oficines i Espais Comercials" en la pàgina "Serveis"
+
+Paleta de colors:
+--dim-gray: #6b6d76ff;
+--grullo: #a69888ff;
+--melon: #fcbfb7ff;
+--charcoal: #334e58ff;
+--bistre: #33261dff;
