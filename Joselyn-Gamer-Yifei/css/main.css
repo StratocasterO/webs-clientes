@@ -70,14 +70,46 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
-.card{
+#game-review{
+    background: inherit;
+    width: 100%;
+}
+
+.info-title{
+    transition: padding 0.5s ease-out;
+    padding: 25px;
+}
+
+.info-title.active > button, button[aria-expanded="true"] {
+    padding: 10px;
+    color: snow;
+    background: rgb(199, 0, 57);
+}
+
+
+.info-title:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info-title:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.text-card{
+    background: inherit;
+}
+.text-card .card-header{
+    padding: 0;
+}
+
+.game-card{
     width:28rem;
     border: 3px solid rgba(236, 71, 34, 0.925);
     border-radius: 8px;
 }
-
-
-
 .card-title{
     color:black;
 }
@@ -305,7 +337,7 @@ ul.CTAs a {
         margin-right:5px;
     }
 
-    .card{
+    .game-card{
         width:20rem;
     }
 
@@ -316,7 +348,7 @@ ul.CTAs a {
         font-size: 40px;
         margin: 0;
     }
-    .card{
+    .game-card{
         width:20rem;
     }
 }
