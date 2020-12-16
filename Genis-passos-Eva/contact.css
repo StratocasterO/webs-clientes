@@ -1,0 +1,123 @@
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+form{
+    max-width: 500px;
+    margin-right: 250px;
+    
+}
+.form > .form-group{
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.form input{
+    font-size: 1em;
+    font-family: inherit;
+    color: inherit;
+    padding: 0.5rem 1em;
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid rgb(20, 85, 42);
+    display: block;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+.form input:focus, .form textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #6d8a6d;
+    color:white;
+    font-size: 1em;
+
+}
+.form textarea{
+    margin-top:10px;
+    width: 400px;
+    height: 150px;
+    border: 2px solid rgb(20, 85, 42);
+    font-family: inherit;
+    font-size: 1em;
+    color: color;
+    padding: 1em;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+.form textarea:focus{
+    outline: none;
+    border: 2px solid  #6d8a6d;
+    color:white;
+    font-size: 1em;
+
+}
+
+.form  input ::-webkit-input-placeholder, .form  textarea ::-webkit-input-placeholder {
+    color:white;
+}
+
+.form  input:focus::-webkit-input-placeholder, .form  textarea:focus::-webkit-input-placeholder {
+    color:white;
+}
+
+.form label{
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 0.3em;
+    display: block;
+    transition: all 0.3s;
+    color:rgb(20, 85, 42);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0.1em);
+    font-size: 1em;
+
+}
+.buton{
+    background-color: rgb(0, 102, 34);
+    color: white;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 30px;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+    width: 150px;
+}
+.buton:hover{
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    letter-spacing: 2px;
+}
+.buton:active{
+    color:white;
+}
+.fotos-{
+    margin-top:20px;
+}
+.deco{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 760px;
+    margin-top:150px;
+    border: 2px solid rgb(0, 102, 34);
+    z-index: -1;
+}
+.fotos- img:nth-child(1){
+    width: 350px;
+}
+.fotos- img:nth-child(2){
+    position: absolute;
+    right:100px;
+    top:400px;
+    width: 250px;
+}
