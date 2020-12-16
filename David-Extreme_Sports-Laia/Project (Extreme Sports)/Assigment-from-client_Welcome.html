@@ -20,6 +20,7 @@
         }
         body{
             height: 100vh;
+            padding: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -41,6 +42,9 @@
             font-weight: normal;
             padding: 20px;
         }
+        .quote{
+            padding: 20px;
+        }
         a{
             text-decoration: none;
             text-align: center;
@@ -50,6 +54,32 @@
         }
         .destacat{
             color: rgb(221,33,38);
+        }
+        @media only screen and (max-width: 1280px) {
+            .logo{
+                height: 130px;
+            }
+            h1{
+                font-size: 60px;
+            }
+            a{
+                font-size: 1.5em;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .brand{
+                display: block;
+                text-align: center;
+            }
+            .logo{
+                height: 180px;
+            }
+            h1{
+                font-size: 80px;
+            }
+            a{
+                font-size: 2.5em;
+            }
         }
     </style>
 </head>

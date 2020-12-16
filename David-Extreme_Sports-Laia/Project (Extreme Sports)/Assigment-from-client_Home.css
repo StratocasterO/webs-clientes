@@ -11,12 +11,22 @@
     height: 150px;
     background-color: rgb(180,206,223);
     margin: 20px auto;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: rgb(10, 36, 73);
+}
+.sections a h2{
+    /* color: rgb(10, 36, 73); */
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.sections a p{
+    /* color: rgb(10, 36, 73); */
+    font-size: 1.2em;
 }
 #about{
     background-image: linear-gradient(to bottom, rgba(180,206,223,0.6) 0%,rgba(180,206,223,0.6) 100%), url(./img/motocross-5064314_1920.jpg);
@@ -42,12 +52,25 @@
 #contact:hover{
     background-image: url(./img/paracaidas.jpg);
 }
-.sections a h2{
-    /* color: rgb(10, 36, 73); */
-    margin-bottom: 10px;
-    font-size: 2em;
+@media only screen and (max-width: 1280px) {
+    .sections{
+        padding: 20px;
+    }
+    .sections a{
+        margin: 10px auto;
+    }
 }
-.sections a p{
-    /* color: rgb(10, 36, 73); */
-    font-size: 1.2em;
+@media only screen and (max-width: 768px) {
+    .sections a{
+        width: 600px;
+        height: 250px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+    .sections a h2{
+        font-size: 3em;
+    }
+    .sections a p{
+        font-size: 1.5em;
+    }
 }
