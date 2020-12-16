@@ -1,0 +1,51 @@
+
+header{
+    background-image: url(./recursos/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font-title{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 5vw;
+}
+.subtitle{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 2.1em;
+}
+.font-text{
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: larger;
+}
+.logo {
+    width: 5vw;
+}
+.text-color {
+    color: #f2f0ee;
+}
+ul {
+    list-style: none;
+}
+
+.artists {
+    
+    background-color: #61534b;
+}    
+.texture {
+    background-image: url(./recursos/img/empty-texture2.png);
+    background-size: cover;
+}
+.gallery{
+    background-color: #593d2b;
+    
+}
+.card-img-top{
+    height: 400px;
+}
+.community{
+    background-color: #888079;
+}
+.footer{
+    background-color: #593d2b;
+    
+}

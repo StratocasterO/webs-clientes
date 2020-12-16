@@ -1,0 +1,37 @@
+.carousel-item {
+  height: 750px;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 800px;
+  object-fit: cover;
+}
+
+.title {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bordered {
+  width: 50%;
+  border-bottom: 1px solid grey;
+}
+
+.on_hover:hover {
+  background-color: #ccff90 !important;
+}
+
+.back_color {
+  background-color: #a4de02;
+}
+
+.menu_color {
+  background-color: #76ba1b;
+}
+
+.nav-link {
+  color: black !important;
+}

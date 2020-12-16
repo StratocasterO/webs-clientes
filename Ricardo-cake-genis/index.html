@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/icons.css">
-    <!-- <link rel="stylesheet" href="./css/ingredients.css"> -->
+
     <title>Cake Instanity</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
             <div class="logo-container my-2">
                 <img src="./img/LogoSvg.svg" alt="logo left" class="img-fluid">
             </div>
-            <h1 class="display-4 mx-3 text-center my-2">Cake insanity</h1>
+            <h1 class="display-4 mx-3 text-center my-2 text-white">Cake insanity</h1>
 
             <div class="logo-container my-2">
                 <img src="./img/LogoSvg.svg" alt="logo right" class="img-fluid">
@@ -33,20 +33,20 @@
         </div>
 
     <!-- navigation non-fixed with links -->
-        <nav class="navbar navbar-expand-md navbar-light bg-secondary p-1">
+        <nav class="navbar navbar-expand-md navbar-light bg-fosc p-1">
 
             <ul class=" container navbar-nav mr-auto ">
 
-                <li class="nav-item px-5">
-                    <a class="nav-link lila-clar" href="./contact.html">Contact me</a>
-                </li>
-
-                <li class="nav-item px-5 active font-weight-bold">
-                    <a class="nav-link lila" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                <li class="nav-item px-5 typo-regular">
+                    <a class="nav-link clar" href="./contact.html">Contact me</a>
                 </li>
 
                 <li class="nav-item px-5">
-                    <a class="nav-link lila-clar" href="./merch.html">Merch</a>
+                    <a class="nav-link extra-clar typo-extra-bold big" href="./index.html">Home</a>
+                </li>
+
+                <li class="nav-item px-5">
+                    <a class="nav-link clar typo-regular" href="./merch.html">Merch</a>
                 </li>
             </ul>
         </nav>
@@ -56,21 +56,22 @@
 
         <div class="row">
 
-        <!-- Left bar: Form -->
-            <aside class="col-lg-2 col-12 px-3 py-2">
-                <div class="sticky-top">
-                    <div class="form-group py-2  bg-secondary aside-left">
-                        <label for="exampleInputName1">Name</label>
+        <!-- Left bar Large display: Form -->
+            <aside class="col-lg-2 col-12 px-3 py-2 my-2 d-lg-flex d-none">
+                <div class="sticky-top extra-fosc">
+                    <h5 class="text-center extra-fosc mt-5">Newsletter</h5>
+                    <div class="form-group py-2  bg-extra-clar aside-left typo-regular">
+                        <label for="exampleInputName1 ">Name</label>
                         <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
                     
                         <label class="pt-3" for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <small id="emailHelp" class="form-text fosc typo-thin">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary py-2">Submit</button>
+                        <button type="submit" class="btn bg-primary text-white py-2">Submit</button>
                     </div>
-                    </form>
+                    
                 </div>
 
             </aside>
@@ -82,7 +83,7 @@
             <!-- About me -->
 
                 <div>
-                    <h2 class="display-5 px-2 py-2">Claire Saffitz </h2>
+                    <h2 class="display-5 px-2 py-2 extra-fosc typo-bold">Claire Saffitz </h2>
                     <div class="d-inline-block">
                         <div class="image-container float-right   px-2 py-2">
                             <img src="./img/Chef.jpg" alt="chef image" class="rounded img-fluid" >
@@ -98,11 +99,11 @@
                     <!-- CAKE 1 - BLUEBERRY -->
 
                     <div class="col-lg-4 col-12">
-                        <div class="col-12 border d-flex align-items-center flex-column rounded m-2">
-                            <div class="cake-header-container"><h3 class="text-center">Blueberry soured cream cake with cheesecake frosting</h3></div>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column rounded m-2">
+                            <div class="cake-header-container p-2"><h5 class="text-center extra-fosc">Blueberry soured cream cake with cheesecake frosting</h5></div>
                             <picture id="overflow1" class="moving-info">
                                 <img src="./img/blueberry.PNG" id="image1" class="img-fluid rounded cake-image" alt="blueberry cake">
-                                <div id="ingredientsList1" class="position-absolute px-2 bg-white mx-1"> 
+                                <div id="ingredientsList1" class="position-absolute px-2 bg-extra-clar py-2 mx-1"> 
                                     <p class="m-0 font-weight-bold">INGREDIENTS</p>
                                     <ul>
                                         <li>175g soft butter</li>
@@ -121,23 +122,23 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction()" id="ingredients1" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction()" id="ingredients1" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>
 
                     <!-- CAKE 2 - GINGER -->
                     <div class="col-lg-4 col-12">
-                        <div class="col-12 border d-flex align-items-center flex-column rounded m-2">
-                            <div class="cake-header-container"><h3 class="text-center">Ginger & white chocolate cake</h3></div>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column rounded m-2">
+                            <div class="cake-header-container p-2"><h5 class="text-center extra-fosc">Ginger & white chocolate cake</h5></div>
                             <picture id="overflow2" class="moving-info">
                                 <img src="./img/cake2.PNG" id="image2" class="img-fluid rounded cake-image " alt="blueberry cake">
-                                <div id="ingredientsList2" class="position-absolute px-2 bg-white mx-1 "> 
+                                <div id="ingredientsList2" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
                                     <p class="m-0 font-weight-bold">INGREDIENTS</p>
                                     <ul>
                                         <li>220g unsalted butter , softened</li>
@@ -162,25 +163,25 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction2()" id="ingredients2" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction2()" id="ingredients2" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>
 
                     <!-- CAKE 3 - LEMON -->
                     <div class="col-lg-4 col-12"">
-                        <div class="col-12 border d-flex align-items-center flex-column m-2 rounded ">
-                            <div class="cake-header-container">
-                                <h3 class="text-center">Lemon & buttermilk pound cake</h3>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Lemon & buttermilk pound cake</h5>
                             </div>
                                 <picture id="overflow3" class="moving-info">
                                 <img src="./img/lemon.PNG" id="image3" class="img-fluid rounded cake-image " alt="blueberry cake">
-                                <div id="ingredientsList3" class="position-absolute px-2 bg-white mx-1 "> 
+                                <div id="ingredientsList3" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
                                     <p class="m-0">INGREDIENTS</p>
                                     <ul>
                                         <li>125g butter, plus extra for the tin</li>
@@ -205,13 +206,13 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction3()" id="ingredients3" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction3()" id="ingredients3" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>
                 </div> 
@@ -221,14 +222,13 @@
 
                     <!-- CAKE 4 - sangria -->
                     <div class="col-lg-4 col-12"">
-                        <div class="col-12 border d-flex align-items-center flex-column m-2 rounded ">
-                            <div class="cake-header-container">
-                                <h3 class="text-center">
-                                    Sangria cake</h3>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Sangria cake</h5>
                             </div>      
                             <picture id="overflow4" class="moving-info">
                                 <img src="./img/sangria.PNG" id="image4" class="img-fluid rounded cake-image" alt="blueberry cake">
-                                <div id="ingredientsList4" class="position-absolute px-2 bg-white mx-1 "> 
+                                <div id="ingredientsList4" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
                                     <p class="m-0">INGREDIENTS</p>
                                     <ul>
                                         <li>100g pears, peeled and chopped</li>
@@ -255,25 +255,25 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction4()" id="ingredients4" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction4()" id="ingredients4" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>
 
                     <!-- CAKE 5 - Spiced -->
                     <div class="col-lg-4 col-12">
-                        <div class="col-12 border d-flex align-items-center flex-column m-2 rounded ">
-                            <div class="cake-header-container">
-                                <h3 class="text-center">Spiced hummingbird cake</h3>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Spiced hummingbird cake</h5>
                             </div>   
                             <picture id="overflow5" class="moving-info">
                                 <img src="./img/spiced.PNG" id="image5" class="img-fluid rounded cake-image" alt="blueberry cake">
-                                <div id="ingredientsList5" class="position-absolute px-2 bg-white mx-1 "> 
+                                <div id="ingredientsList5" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
                                     <p class="m-0">INGREDIENTS</p>
                                     <ul>
                                         <li>225ml vegetable oil , plus extra for the tins</li>
@@ -299,25 +299,25 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction5()" id="ingredients5" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction5()" id="ingredients5" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>                        
 
                     <!-- CAKE 6 - strawberry -->
                     <div class="col-lg-4 col-12">
-                        <div class="col-12 border d-flex align-items-center flex-column m-2 rounded ">
-                            <div class="cake-header-container">
-                                <h3 class="text-center">Strawberry cake</h3>
+                        <div class="col-12 bg-extra-clar d-flex align-items-center flex-column m-2 rounded ">
+                            <div class="cake-header-container p-2">
+                                <h5 class="text-center extra-fosc">Strawberry cake</h5>
                             </div> 
                             <picture id="overflow6" class="moving-info">
                                 <img src="./img/strawberry.PNG" id="image6" class="img-fluid rounded cake-image" alt="blueberry cake">
-                                <div id="ingredientsList6" class="position-absolute px-2 bg-white mx-1 "> 
+                                <div id="ingredientsList6" class="position-absolute px-2 bg-extra-clar py-2 mx-1 "> 
                                     <p class="m-0">INGREDIENTS</p>
                                     <ul>
                                         <li>400g softened butter , plus more for the tin</li>
@@ -337,13 +337,13 @@
                                     </ul>
                                 </div>
                             </picture>
-                            <p>50 €</p>
+                            <p class="typo-extra-bold extra-fosc italic">50 €</p>
                             <div class="row d-flex justify-content-center">
-                                <button type="button" onclick="myFunction6()" id="ingredients6" class="btn btn-primary custom-button my-1 mx-1 px-0">Ingredients</button>
-                                <button type="button" class="btn btn-primary custom-button my-1 mx-1">Recipe</button>
+                                <button type="button" onclick="myFunction6()" id="ingredients6" class="btn btn-primary text-white custom-button my-1 mx-1 px-0">Ingredients</button>
+                                <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1">Recipe</button>
                                 
                             </div>
-                            <button type="button" class="btn btn-primary custom-button my-1 mx-1 ">Buy</button>
+                            <button type="button" class="btn btn-primary text-white custom-button my-1 mx-1 ">Buy</button>
                         </div>
                     </div>
                 </div>  
@@ -357,23 +357,23 @@
 
         <!-- Rigth bar-->
             <aside class="col-lg-2 col-12 sticky-top px-3 py-2">
-                <div class="my-4 p-2 rounded">
-                    <h4 class="lead text-center">VIDEO OF THE DAY</h4>
+                <div class="my-2">
+                    <h5 class="lead typo-bold text-center bg-extra-clar rounded p-2 mb-0">VIDEO OF THE DAY</h5>
                     <div>
-                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/8-5yLt1gqIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="rounded mt-0" width="100%" height="auto" src="https://www.youtube.com/embed/8-5yLt1gqIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
                 <div class="my-4 p-2 rounded">
-                    <h4 class="lead  text-center">RECIPE OF THE DAY</h4>
-                    <div class="d-flex flex-column align-items-center">
-                        <p class="text-center">Easiest Chocolate Birthday Cake</p>
-                        <p><a href="https://www.bonappetit.com/recipe/easiest-chocolate-birthday-cake">Link a la receta</a></p>               
+                    <h5 class="lead typo-bold  text-center">RECIPE OF THE DAY</h5>
+                    <div class="d-flex flex-column align-items-center bg-extra-clar rounded py-4 px-2">
+                        <p class="text-center extra-fosc typo-bold">Easiest Chocolate Birthday Cake</p>
+                        <p class="italic"><a href="https://www.bonappetit.com/recipe/easiest-chocolate-birthday-cake">Link a la receta</a></p>               
                     </div>
                 </div>
 
                 <div class="my-4 p-2 social-media rounded">
-                    <h4 class="lead  text-center">FOLLOW US</h4>
+                    <h5 class="lead typo-bold text-center">FOLLOW US</h5>
                     <div class="container">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
@@ -388,9 +388,30 @@
             </aside>
         </div>
     </div>
+
+    <!-- Left bar small display: Form -->
+    <div class="container">
+        <aside class="col-12 px-3 py-2 d-lg-none d-flex">
+            <div class="extra-fosc amplada">
+                <h5 class="text-center extra-fosc display-5">Newsletter</h5>
+                <div class="form-group py-2  bg-extra-clar aside-left typo-regular">
+                    <label for="exampleInputName1 ">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                
+                    <label class="pt-3" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text fosc typo-thin">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn bg-primary text-white py-2">Submit</button>
+                </div>
+                
+            </div>
+        </aside>
+    </div>
         
-    <footer class="bg-primary p-4">
-        <p class="text-center m-0 text-light">©Copyright Cake Insanity</p>
+    <footer id="footer" class="bg-primary p-4  typo-thin italic">
+        <p class="text-center text-white m-0">©Copyright Cake Insanity</p>
     </footer>
 
 
