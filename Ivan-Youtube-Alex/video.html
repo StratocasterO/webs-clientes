@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-    <title>Video</title>
+    <title>Not A Youtube Clone: Video</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,69 +11,111 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row bg-dark text-light">
-            <h1 class="title col-sm-8">
-                <span class="icon"><i class="fa fa-youtube" aria-hidden="true" style="color: #dc3545;"></i></span> Youtube
+            <h1 class="title col-sm-8 pt-2 pl-4">
+                <span class="icon"><i class="fa fa-youtube" aria-hidden="true" style="color: #dc3545;"></i></span> <a href="./index.html" style="color: whitesmoke; text-decoration: none; font-weight: bold;">Youtube</a>
             </h1>
             <div class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contacto</a>
+                        <a class="nav-link text-light" href="./contact.html"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Contacto</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Notificaciones</a>
+                        <a class="nav-link text-light" href="#"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Notificaciones</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Registrarse</a>
+                        <a class="nav-link text-light" href="#"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Registrarse</button></a>
                     </li>
                 </ul>
             </div>
         </header>
-        <section id="main-video">
-            <div class="card" id="main-video">
-                <div class="card-body">
-                    <iframe src="https://www.youtube-nocookie.com/embed/oys6EQtpCJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h2 class="video-title">Historia del Oriente Medio: Antigüedad Temprana</h2>
-                    <p class="date">3 Agosto 2020</p>
-                    <p id="description">Primer capítulo de la serie sobre el Oriente Medio. Ésta parte cubre el período 3500 a.C. - 513 a.C. Períodos más tardíos serán cubiertos en los capítulos siguientes.</p>
-                </div>
-            </div>
-        </section>
-        <section id="other-videos">
-            <h2 class="section-title mt-3">Vídeos Recomendados</h2>
-            <div class="card-columns">
-                <div class="card">
-                    <div class="card-body">
-                        <iframe src="https://www.youtube-nocookie.com/embed/KnCTg2IW4X0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4 class="card-title">Historia del Oriente Medio: Antigüedad Tardía</h4>
+        <main>
+            <div class="container">
+                <section id="main-video">
+                    <div class="card" id="main-video">
+                        <div class="card-body">
+                            <iframe width="100%" src="https://www.youtube-nocookie.com/embed/Q7h3XIBSHLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 3px solid gray; height: 50vw;"></iframe>
+                            <h5 class="card-title mt-3"><a href="./video.html" style="color: black; text-decoration: underline;">Marcha Otomana (Manuscrit Cantemir 209)</a></h5>
+                            <p class="author mb-1">Creado por Jordi Savall</p>
+                            <p class="date font-italic mb-1">Publicado el 7 de Noviembre de 2014</p>
+                            <p id="description" style="width: 66%;">
+                                Autores: Derya Türkan, Yurdal Tokcan, Murat Salim Tokaç, Hakan Güngör, Fahrettin Yarkın, Nedyalko Nedyalkov, Dimitri Psonis, Driss El Maloumi, Pedro Estevan, Jordi Savall || Balkan - Honey and Blood || ℗ 2013 Alia Vox || Released on: 2013-12-16 || Music Publisher: Public domain
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <iframe src="https://www.youtube-nocookie.com/embed/mkyzUFSgEWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4 class="card-title">Historia del Oriente Medio: Medievo a Modernidad</h4>
+                </section>
+                <section id="other-videos">
+                    <h2 class="section-title mt-3">Vídeos Recomendados</h2>
+                    <div class="card-columns">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/oys6EQtpCJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Historia del Oriente Medio: Antigüedad Temprana</h5>
+                                <p class="author mb-1">de Ollie Bye</p>
+                                <p class="date font-italic mb-1">3 de Agosto de 2020</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/KnCTg2IW4X0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Historia del Oriente Medio: Antigüedad Tardía</h5>
+                                <p class="author mb-1">de Ollie Bye</p>
+                                <p class="date font-italic mb-1">3 de Setiembre de 2020</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/mkyzUFSgEWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Historia del Oriente Medio: Medievo a Modernidad</h5>
+                                <p class="author mb-1">de Ollie Bye</p>
+                                <p class="date font-italic mb-1">14 de Octubre de 2020</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <iframe src="https://www.youtube-nocookie.com/embed/CSFYUqH30l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4 class="card-title">La Caída del Imperio Ming y Conquista Manchú de China</h4>
-                    </div>
-                </div>
+                </section>
             </div>
-        </section>
-        <footer class="row bg-dark text-light">
-            <div class="col-sm-8 contact-info mt-3">
-                <p>Email</p>
-                <p>Teléfono</p>
+        </main>
+        <footer class="row bg-dark text-light mt-4">
+            <div class="col-sm-6 contact-info mt-3 pl-5 pr-5">
+                <h6 class="font-weight-bold">Email:</h6>
+                <p>alex.fernandez@student.bit.es</p>
+                <h6 class="font-weight-bold">Teléfono:</h6>
+                <p>34652314580</p>
             </div>
-            <div class="col-sm-4 navbar navbar-expand-sm social-media-footer">
-                <ul class="navbar-nav">
-                    <li class="nav-item mr-1">Icono 1</li>
-                    <li class="nav-item mr-1">Icono 2</li>
-                    <li class="nav-item mr-1">Icono 3</li>
-                    <li class="nav-item mr-1">Icono 4</li>
+            <div class="col-sm-6 mt-3 pl-5 pr-5 social-media-footer text-right">
+                <h5>Redes Sociales</h5>
+                <ul class="list-inline" style="font-size: xx-large;">
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.facebook.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.google.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fab fa-google-plus-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.pinterest.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-pinterest-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.twitter.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.tumblr.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-tumblr-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="" class="social-media-link text-light">
+                            <i class="social-media-icon fas fa-rss-square"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </footer>

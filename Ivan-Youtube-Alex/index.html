@@ -1,121 +1,175 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <title>Not A Youtube Clone</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script src="https://kit.fontawesome.com/132b87db2a.js" crossorigin="anonymous"></script>
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Not A Youtube Clone</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/132b87db2a.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class="bg-light">
-  <div class="container">
-    <header class="row bg-dark text-light">
-      <h1 class="title col-sm-8">
-        <span class="icon"><i class="fa fa-youtube" aria-hidden="true" style="color: #dc3545;"></i></span> Youtube
-      </h1>
-      <div class="navbar navbar-expand-sm">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Notificaciones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Registrarse</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <section id="video-of-the-day">
-        <h3 class="row section-title mt-3">Vídeo del Día</h3>
-        <div class="row video-container" id="main-video">
-          <iframe class="col-12" height="630px" src="https://www.youtube-nocookie.com/embed/WAlKCm3xRMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </section>
-      <section id="other-videos">
-        <h3 class="row section-title mt-4">Otros Vídeos</h3>
-        <div class="card-columns">
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/ZMLakJIiLwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Man Down</h4>
+    <div class="container-fluid">
+        <header class="row bg-dark text-light">
+            <h1 class="title col-sm-8 pt-2 pl-4">
+                <span class="icon"><i class="fa fa-youtube" aria-hidden="true" style="color: #dc3545;"></i></span> <a href="./index.html" style="color: whitesmoke; text-decoration: none; font-weight: bold;">Youtube</a>
+            </h1>
+            <div class="navbar navbar-expand-sm">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contact.html"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Contacto</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Notificaciones</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><button type="button" class="btn btn-primary" style="background-color: #dc3545; border-color: grey;">Registrarse</button></a>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/24mlwq_FG08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Jet Fueled Vixen</h4>
+        </header>
+        <main>
+            <div class="container">
+                <section id="video-of-the-day">
+                    <h3 class="row section-title mt-3">Vídeo del Día</h3>
+                    <div class="card" id="main-video">
+                        <div class="card-body">
+                            <iframe width="100%" src="https://www.youtube-nocookie.com/embed/Q7h3XIBSHLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 3px solid gray; height: 50vw;"></iframe>
+                            <h5 class="card-title mt-3"><a href="./video.html" style="color: black; text-decoration: underline;">Marcha Otomana (Manuscrit Cantemir 209)</a></h5>
+                            <p class="author mb-1">Creado por Jordi Savall</p>
+                            <p class="date font-italic mb-1">Publicado el 7 de Noviembre de 2014</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="other-videos">
+                    <h3 class="row section-title mt-4">Vídeos Nuevos</h3>
+                    <div class="card-columns">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/WAlKCm3xRMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Ever Mindful</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">15 de Mayo de 2017</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/ZMLakJIiLwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Man Down</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">25 de Enero de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/24mlwq_FG08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Jet Fueled Vixen</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">1 de Enero de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/I73DQEy-aEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Mystery Sax</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">11 de Enero de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/8VZbdulQwQE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Hiding Your Reality</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">8 de Enero de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/vvPNcGeXWyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Unholy Knight</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">11 de Julio de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/mZTE9h5v3dE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Obliteration</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">26 de Junio de 2018</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/FTIdFrNaDqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Ryno's Theme</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">11 de Marzo de 2016</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <iframe width="100%" height="158px" src="https://www.youtube-nocookie.com/embed/9np9KK4ccuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <h5 class="card-title mb-1">Banda Sonora: Blip Stream</h5>
+                                <p class="author mb-1">de Kevin MacLeod</p>
+                                <p class="date font-italic mb-1">13 de Agosto de 2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/I73DQEy-aEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Mystery Sax</h4>
+        </main>
+        <footer class="row bg-dark text-light mt-4">
+            <div class="col-sm-6 contact-info mt-3 pl-5 pr-5">
+                <h6 class="font-weight-bold">Email:</h6>
+                <p>alex.fernandez@student.bit.es</p>
+                <h6 class="font-weight-bold">Teléfono:</h6>
+                <p>34652314580</p>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/8VZbdulQwQE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Hiding Your Reality</h4>
+            <div class="col-sm-6 mt-3 pl-5 pr-5 social-media-footer text-right">
+                <h5>Redes Sociales</h5>
+                <ul class="list-inline" style="font-size: xx-large;">
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.facebook.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.google.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fab fa-google-plus-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.pinterest.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-pinterest-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.twitter.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="https://www.tumblr.com" class="social-media-link text-light">
+                            <i class="social-media-icon fab fa-tumblr-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-1">
+                        <a href="" class="social-media-link text-light">
+                            <i class="social-media-icon fas fa-rss-square"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/vvPNcGeXWyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Unholy Knight</h4>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/mZTE9H4v3dE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Obliteration</h4>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/FTIdFrNaDqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Ryno's Theme</h4>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/9np9KK4ccuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Blip Stream</h4>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <iframe src="https://www.youtube-nocookie.com/embed/2eZVbrO6Z1M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <h4 class="card-title">Banda Sonora:<br> Monkeys Spinning Monkeys</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="row bg-dark text-light">
-      <div class="col-sm-8 contact-info mt-3">
-        <p>Email</p>
-        <p>Teléfono</p>
-      </div>
-      <div class="col-sm-4 navbar navbar-expand-sm social-media-footer">
-        <ul class="navbar-nav">
-          <li class="nav-item mr-1">Icono 1</li>
-          <li class="nav-item mr-1">Icono 2</li>
-          <li class="nav-item mr-1">Icono 3</li>
-          <li class="nav-item mr-1">Icono 4</li>
-        </ul>
-      </div>
-    </footer>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
