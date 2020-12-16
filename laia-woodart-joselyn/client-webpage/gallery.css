@@ -1,0 +1,16 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 5,6fr 13,8fr 4,5fr;
+    grid-template-rows: 9fr;
+    grid-template-areas: 
+      "gallery centro artists"
+      "gallery centro community"; 
+} */
+
+.col-5{
+    border-right:  #f2f0ee 1px solid;
+}
+.img-small{
+    width: 250px;
+    height: 190px;
+}

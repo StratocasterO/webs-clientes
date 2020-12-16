@@ -1,0 +1,53 @@
+header{
+    background-image: url(./recursos/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.font-title{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 5vw;
+}
+.subtitle{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 2.1em;
+}
+.font-text{
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: larger;
+}
+.logo {
+    width: 5vw;
+}
+.text-color {
+    color: #f2f0ee;
+}
+ul {
+    list-style: none;
+}
+main{
+    background-color: #f2f0ee;
+}
+.artists {
+    
+    background-color: #61534b;
+}
+.artists::before{
+    /* background-image: url(./recursos/img/texture.jpg); */
+    opacity: 0.5;
+    z-index: 1;
+}
+.gallery{
+    background-color: #593d2b;
+    /* background-image: url(./recursos/img/texture.jpg); */
+}
+.card-img-top{
+    height: 400px;
+}
+.community{
+    background-color: #888079;
+    /* background-image: url(./recursos/img/texture.jpg); */
+}
+.footer{
+    background-color: #593d2b;
+}
