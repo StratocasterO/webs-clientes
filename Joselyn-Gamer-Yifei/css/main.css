@@ -110,6 +110,10 @@ a, a:hover, a:focus {
     border: 3px solid rgba(236, 71, 34, 0.925);
     border-radius: 8px;
 }
+
+.video-title{
+    width: 100%;
+}
 .card-title{
     color:black;
 }
