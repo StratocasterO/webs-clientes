@@ -1,0 +1,9 @@
+Font:
+All the titles should be Lobster (Google Fonts)
+text in the paragraph or another html elements can be decided by the designer.
+
+
+Color:
+https://coolors.co/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08
+
+You can use boostrap4 to implement the solution.

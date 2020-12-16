@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+}
+
+.ul menu{
+    flex-direction: column;
+}
+
+.bloc1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .bloc1 img{
+     width: 100%;
+ }
