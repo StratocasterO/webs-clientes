@@ -180,9 +180,8 @@ a{
 .single_product {
     padding-top: 66px;
     padding-bottom: 140px;
-    background-color: #e5e5e5;
+    background-color: white;
     margin-top: 0px;
-    padding: 17px
 }
 
 .product_name {
@@ -692,14 +691,26 @@ ul {
 .btn{
     background: #9e0000;
     color: white;
+    border-color: black;
+    border: 0;
+    outline: none;
     
 }
 
 .btn:hover{
     background: black;
     color: white;
+    border-color: black;
+}
+
+.btn:active{
+    background: black;
 }
 
 .fa{
-    background: #9e0000;;
+    background: #9e0000;
 }
+
+
+
+
