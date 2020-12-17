@@ -12,10 +12,6 @@ body {
   min-height: 100vh;  
 }
 
-.pc {
-  padding-right: 33px;
-}
-
 .view-60 {
   height: 60vh;
 }
@@ -39,7 +35,8 @@ body {
 }
 
 .bg-blanco {
-  background-color:#fffffe;
+  /* background-color:#fffffe; */
+  background-color: #fafafa;
 }
 
 .bg-violet {
@@ -72,6 +69,16 @@ main > div > div > img {
 }
 @media only screen and (min-width: 992px) {
 
+  /* .border-f {
+    border-right: 1px solid #595e66;
+    border-left: 1px solid #595e66;
+  }
+  */
+
+  .pc {
+    padding-right: 33px;
+  }
+  
   .custom-grid{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -110,6 +117,11 @@ main > div > div > img {
  
   }
   @media only screen and (max-width: 991px) {
+
+    .border-f {
+      border-bottom: 1px solid #595e66;
+      border-top: 1px solid #595e66;
+    }
 
     .custom-grid{
       display: grid;
