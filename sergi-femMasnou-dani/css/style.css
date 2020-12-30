@@ -100,7 +100,7 @@
 .container .grid-container {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'menu logo logo logo logo xarxes' 'menu main main main main xarxes' 'menu main main main main xarxes';
+      grid-template-areas: 'menu logo logo logo logo xarxes' 'menu main main main main xarxes' 'menu main main main main xarxes';
   -ms-grid-columns: 150px 1fr 1fr 1fr 1fr 150px;
       grid-template-columns: 150px 1fr 1fr 1fr 1fr 150px;
   grid-gap: 16px;
@@ -140,7 +140,7 @@
   .container .grid-container {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'menu' 'logo' 'main' 'xarxes';
+        grid-template-areas: 'menu' 'logo' 'main' 'xarxes';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 10px;
